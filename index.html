@@ -11,11 +11,13 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <div class="container app">
+  <div class="app">
     <nav class="app__nav">
-      <div class="app__content">
+      <div class="container">
         <div class="top-nav">
           <h1 class="top-nav__left">Evan Hickman</h1>
+
+          <div class="nav-list__item">
             <ul class="nav-list">
               <li class="nav-list__item">
                 <a class="nav-list__link" href="#welcome">Welcome</a>
@@ -30,84 +32,83 @@
                 <a class="nav-list__link" href="#photos">Photos</a>
               </li>
             </ul>
+          </div>
         </div>
       </div>
     </nav>
     <div class="app__content">
-      <section class="section__photos" id="welcome">
-        <div class="section--hero">
+      <section class="section section--hero" id="welcome">
+        <div class="container">
           <div class="hero">
             <div class="hero__item">
               <h2 class="hero__text">I'm a terrible dancer.</h2>
             </div>
-            <div class="media__right">
+            <div class="hero__item">
               <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="" class="hero">
             </div>
           </div>
         </div>
       </section>
-    </div>
-      <div class="section">
-        <div class="box">
-          <h2 class="area-of-control__heading">I'm an interesting person!</h2>
 
-          <div class="leela">
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    span class="morty morty--blue">
+      <div class="section">
+        <div class="container">
+          <h2 class="section__heading">But I loooooove music!</h2>
+
+          <div class="hero">
+            <div class="hero__item">
+              <div class="card">
+                <div class="grid">
+                  <div class="grid__item">
+                    <span class="circle-icon--primary">
                       <span class="fa fa-fw fa-user fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="twitter__second">
-                    <h3>My interest goes here</h3>
+                  <div class="grid__item--quarter">
+                    <h3>Ambient</h3>
 
                     <p>
-                      I'm going to write something about my interests here.
-                      Each blackjack contents should say things about what I like.
+                      From Eno to Reich and everything in between, I love experimental ambient composition.
                     </p>
                   </div>
                 </div>
               <div>
             </div>
 
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    <span class="morty morty--green">
+            <div class="hero__item">
+              <div class="card">
+                <div class="grid">
+                  <div class="grid__item">
+                    <span class="circle-icon--success">
                       <span class="fa fa-fw fa-user fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="twitter__second">
-                    <h3>Wow another interest!</h3>
+                  <div class="grid__item--quarter">
+                    <h3>New Wave</h3>
 
                     <p>
-                      There are a few different versions of the "circle-icon".
-                      Each of these cards should have a different one!
+                      The '80s were a great time for moody cheese.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    <span class"morty morty--danger">
+            <div class="hero__item">
+              <div class="card">
+                <div class="grid">
+                  <div class="grid__item">
+                    <span class"circle-icon--warning">
                       <span class="fa fa-fw fa-user fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="twitter__second">
-                    <h3> "Here's a 3rd interest of mine"</h3>
+                  <div class="grid__item--quarter">
+                    <h3>"Shoegaze"</h3>
 
                     <p>
-                      These icons should be changed using font-awesome.
+                      Swirling distortion and incomprehensible lyrics: a recipe for nostalgia.
                     </p>
                   </div>
                 </div>
@@ -117,10 +118,10 @@
         </div>
       </div>
 
-      <div class="area-of-control area-of-control--paralax"></div>
+      <div class="section section--slidey-picture"></div>
 
-      <div class="area-of-control" id="catchphrases">
-        <h2 class="area-of-control__heading">My Favorite Quotes</h2>
+      <div class="section" id="catchphrases">
+        <h2 class="section__heading">My Favorite Quotes</h2>
 
         <div class="box">
           <div class="leela">
@@ -128,15 +129,15 @@
               <figure class="catchphrase">
                 <div class="catchphrase__blackjack">
                   <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
+                    For the world to be interesting, you have to be manipulating it all the time.
                   </p>
                 </div>
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="catchphrase__yyy" src="http://hilobrow.com/wp-content/uploads/2009/05/eno-brian.jpg" alt=""></span>
 
                   <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                    <h4 class="catchphrase__character">Brian Eno</h4>
+                    <p class="catchphrase__show">Blurg</p>
                   </div>
                 </figcaption>
               </figure>
@@ -146,15 +147,15 @@
               <figure class="catchphrase">
                 <div class="catchphrase__blackjack">
                   <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
+                    The truth is of course is that there is no journey. We are arriving and departing all at the same time.
                   </p>
                 </div>
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="catchphrase__yyy" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/11/12/david_bowie_rex.jpg" alt=""></span>
 
                   <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                    <h4 class="catchphrase__character">David Bowie</h4>
+                    <p class="catchphrase__show">Nurdle</p>
                   </div>
                 </figcaption>
               </figure>
@@ -164,15 +165,15 @@
               <figure class="catchphrase">
                 <div class="catchphrase__blackjack">
                   <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
+                    In the depth of winter, I finally learned that within me there lay an invincible summer.
                   </p>
                 </div>
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="catchphrase__yyy" src="https://libcom.org/files/images/library/the-famous-pose-of-albert-camus1.jpg" alt=""></span>
 
                   <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show"Transformers</p>
+                    <h4 class="catchphrase__character">Albert Camus</h4>
+                    <p class="catchphrase__show">Crab</p>
                   </div>
                 </figcaption>
               </figure>
@@ -182,15 +183,15 @@
               <figure class="catchphrase">
                 <div class="catchphrase__blackjack">
                   <p class="catchphrase__xxx">
-                    I bought a car. Turned out to be an alien robot.
+                    Life has a practice of living you, if you don't live it.
                   </p>
 
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="catchphrase__yyy" src="https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2015/01/02/BostonGlobe.com/Arts/Images/larkin.jpg" alt=""></span>
 
                   <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                    <h4 class="catchphrase__character">Phillip Larkin</h4>
+                    <p class="catchphrase__show">A thing</p>
                   </div>
                 </figcaption>
               </figure>
